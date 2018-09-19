@@ -1,7 +1,10 @@
 # puppeteer-heroku-buildpack
 
-Installs dependencies needed in order to run puppeteer on heroku. Be sure to include `{ args: ['--no-sandbox', '--disable-setuid-sandbox'] }` in your call to `puppeteer.launch`
+## これはなに
+日本語ユーザー向けにやさしさゴシックを同梱したpuppeteer-heroku-buildpack。  
+詳細はFork元(https://github.com/jontewks/puppeteer-heroku-buildpack)を参照してください。
 
-**This fork of the [jontewks buildpack](https://elements.heroku.com/buildpacks/jontewks/puppeteer-heroku-buildpack)
-adds support for Chinese, Korean, and Japanese characters. Since it adds
-22MBs for the font files, I've kept it as a separate build pack.**
+## IPAフォントの再配布について
+やさしさゴシックはIPAフォントです。  
+詳細はIPAフォントライセンスv1.0(https://ipafont.ipa.go.jp/ipa_font_license_v1.html)をご確認ください。
+
